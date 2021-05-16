@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int balance = 100;
-        int payment = 1000;
+        double balance = 100.00;
+        double payment = 11568.67;
         int limit = 1000;
         int bonus = 100;
         int totalBonus;
-        int totalBаlance = balance + payment;
+        double totalBаlance = balance + payment;
 
         if (payment > limit) {
-            totalBonus = payment / bonus;
+            totalBonus = (int) payment / bonus;
 
         } else {
             totalBonus = 0;
